@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+}
+
+.boardCell h3 {
+    font-size: 100px;
+}
+
+.boardCell {
+    display: flex;
+    flex: 0 1 calc(100%/3);
+    height: calc(100%/3);
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    align-items: center;
+    justify-content: center;
+}
